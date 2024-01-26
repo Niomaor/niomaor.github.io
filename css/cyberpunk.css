@@ -11139,6 +11139,18 @@ footer.footer .level-end .field {
   padding: 0.75em 0 0.75em 1.25em;
   background: #050a0e;
 }
+.searchbox .searchbox-pinyin {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+.searchbox .searchbox-pinyin input {
+  vertical-align: middle;
+}
+.searchbox .searchbox-pinyin span {
+  position: relative;
+  top: 1px;
+}
 .searchbox .searchbox-close {
   display: inline-block;
   font-size: 1.5em;
